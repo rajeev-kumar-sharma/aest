@@ -11,7 +11,6 @@ cron.schedule('*/20 * * * *', function () {
     if (error) {
       console.error(chalk.red(`exec error: ${error}`));
     }
-    // console.log(chalk.bold.cyan(``));
 
     setTimeout(function () {
       exec('xset dpms force on | xinput set-prop 11 "Device Enabled" 1 | xinput set-prop 12 "Device Enabled" 1', function (error, stdout, stderr) {
@@ -19,8 +18,6 @@ cron.schedule('*/20 * * * *', function () {
           console.error(chalk.red(`exec error: ${error}`));
         }
       });
-    }, 20000)
-
-
+    }, 20000);
   })
 })
