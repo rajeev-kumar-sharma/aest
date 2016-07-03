@@ -1,0 +1,36 @@
+{
+  "name": "aest",
+  "version": "1.0.0",
+  "description": "Anti eyes strain technique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevkumarsharma/aest.git"
+  },
+  "bin": {
+    "aest": "./bin/aest.js"
+  },
+  "keywords": [
+    "aest",
+    "cli",
+    "anti",
+    "eyes",
+    "strain",
+    "technique"
+  ],
+  "author": "Rajeev Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajeevkumarsharma/aest/issues"
+  },
+  "homepage": "https://github.com/rajeevkumarsharma/aest#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "forever": "^0.15.2",
+    "node-cron": "^1.1.1"
+  }
+}

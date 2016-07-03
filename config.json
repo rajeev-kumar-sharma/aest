@@ -1,0 +1,13 @@
+{
+  "Linux": {
+    "every": "20",
+    "for": "20",
+    "xinput": [12] 
+  },
+  "Darwin": {
+    
+  },
+  "Windows_NT": {
+
+  }
+}
